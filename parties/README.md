@@ -11,6 +11,7 @@ be analyzed.
 
 
 Results:
+
 Midterm? | Years | Size Change | Majority Party Last Year | Abs Delta | Percentage Delta
 --- | --- | --- | --- | --- | ---
 true | 1859-1861 | 0 | dems | -30 | -29.70
