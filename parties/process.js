@@ -37,7 +37,7 @@ fs.createReadStream('parties.csv')
     results[ind].delta = results[ind][majorityParty] - results[ind - 1][majorityParty];
     results[ind].deltaP = results[ind].delta / results[ind][majorityParty];
     results[ind].majorityParty = majorityParty;
-    const isMidterm = ind%2 === 1;
+    const isMidterm = ind%2 === 0;
     tableRow([isMidterm, results[ind].years, results[ind].sizeDelta, results[ind].majorityParty, results[ind].delta, (results[ind].deltaP * 100).toFixed(2)]);
   }
 });
