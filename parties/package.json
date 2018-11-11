@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "csv-parser": "^2.1.0",
+    "csv-to-markdown-table": "https://github.com/donatj/CsvToMarkdownTable",
+    "lodash": "^4.17.11"
+  }
+}
