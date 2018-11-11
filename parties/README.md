@@ -9,8 +9,21 @@ wasn't even the worse since 1929.  I found a
 that seemed reasonable and was easy to get into a form that could
 be analyzed.
 
+An answer is that the worse loss since 1929 was in 1939, not 2011.  Googling around
+a bit more it appears that the statement that most people make is relative to WWII.
+Tons of fun things in this chart.  I got lost in the data several times.  If I was going
+to take this any further filtering out the civil war would probably be an important consideration.
+Correcting for vacancies and increases would also be useful but this data set doesn't include enough
+data to understand how new states really effected the composition of the congress.
+
 
 Results:
+
+Some stats:
+* overall: mean = -11.91 std = 37.1068 median = -30 min = -116
+* midterm: mean = -23.55 std = 37.1436 median = -71 min = -116
+* overall since 1929: mean = -11.00 std = 32.5960 median = -13 min = -101
+* midterm since 1929: mean = -14.00 std = 34.2557 median = 49 min = -71
 
 Midterm? | Years | Size Change | Majority Party Last Year | Abs Delta | Percentage Delta
 --- | --- | --- | --- | --- | ---
@@ -32,7 +45,7 @@ true | 1887-1889 | 0 | dems | -12 | -7.06
 false | 1889-1891 | 5 | dems | -14 | -8.97
 true | 1891-1893 | 3 | reps | -85 | -96.59
 false | 1893-1895 | 23 | dems | -11 | -5.00
-true | 1895-1897 | 1 | dems | -116 | -111.54
+true | 1895-1897<sub>ab</sub> | 1 | dems | -116 | -111.54
 false | 1897-1899 | 0 | reps | -40 | -19.42
 true | 1899-1901 | 0 | reps | -21 | -11.35
 false | 1901-1903 | 0 | reps | 13 | 6.57
@@ -43,18 +56,18 @@ false | 1909-1911 | 5 | reps | -3 | -1.37
 true | 1911-1913 | 0 | reps | -57 | -35.19
 false | 1913-1915 | 44 | dems | 62 | 21.38
 true | 1915-1917 | 0 | dems | -59 | -25.54
-false | 1917-1919 | 0 | dems | 1870 | 89.01
-true | 1919-1921 | 0 | dems | -1910 | -1000.00
+false | 1917-1919 | 0 | dems | -21 | -10.00
+true | 1919-1921 | 0 | reps | 21 | 8.86
 false | 1921-1923 | 0 | reps | 63 | 21.00
 true | 1923-1925 | 0 | reps | -75 | -33.33
 false | 1925-1927 | 0 | reps | 22 | 8.91
 true | 1927-1929 | 0 | reps | -10 | -4.22
 false | 1929-1931 | 0 | reps | 30 | 11.24
 true | 1931-1933 | 0 | reps | -49 | -22.48
-false | 1933-1935 | 0 | reps | -101 | -86.32
+false | 1933-1935<sub>c</sub> | 0 | reps | -101 | -86.32
 true | 1935-1937 | 0 | dems | 9 | 2.80
 false | 1937-1939 | 0 | dems | 11 | 3.30
-true | 1939-1941 | 0 | dems | -71 | -27.10
+true | 1939-1941<sub>d</sub> | 0 | dems | -71 | -27.10
 false | 1941-1943 | 0 | dems | 5 | 1.87
 true | 1943-1945 | 0 | dems | -45 | -20.27
 false | 1945-1947 | 0 | dems | 21 | 8.64
@@ -93,3 +106,8 @@ false | 2009-2011 | 0 | dems | 23 | 8.98
 true | 2011-2013 | 0 | dems | -63 | -32.64
 false | 2013-2015 | 0 | reps | -8 | -3.42
 true | 2015–2017 | 0 | reps | 12 | 4.88
+
+a - overall min
+b - midterm min
+c - overall min since 1929
+d - midterm min since 1929
